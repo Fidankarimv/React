@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  @media only screen and (max-width:1199px) {
+    padding: 0 5%;
+    
+  }
+
+}
+table,tr,th,td{
+  border: 2px solid rgb(157, 122, 190);
+}
